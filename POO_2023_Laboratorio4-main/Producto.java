@@ -15,15 +15,3 @@ public abstract class Producto {
         return precio;
     }
 }
-
-public class Libro extends Producto {
-    public Libro(String nombre, double precio) {
-        super(nombre, precio);
-    }
-}
-
-public class Revista extends Producto {
-    public Revista(String nombre, double precio) {
-        super(nombre, precio);
-    }
-}
